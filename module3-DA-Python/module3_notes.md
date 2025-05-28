@@ -56,5 +56,10 @@ conexion.commit()
 
 ---------------------------------------------------------------------
 Ojo:
-pandas funciona mejor y de forma oficialmente soportada con conexiones hechas usando SQLAlchemy, no directamente con conexiones mysql-connector (u otras DBAPI2 como psycopg2, etc.).
+pandas funciona mejor y de forma oficialmente soportada con conexiones hechas usando SQLAlchemy, no directamente con conexiones mysql-connector (u otras DBAPI2 como psycopg2, etc.). Ver sqlalchemy.md
+
+---------------------------------------------------------------------
+Vamos a continuar con la extracción de datos desde MySQL utilizando Pandas y la conexión SQLAlchemy que ya configuramos. Ver archivo conecction_2.py
+
+
 

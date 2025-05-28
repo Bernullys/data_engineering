@@ -1,0 +1,16 @@
+detalle_id,venta_id,producto_id,cantidad,precio_unitario,cliente_id,empleado_id,fecha,nombre_x,precio,stock,nombre_y,email,telefono,total
+1,1,1,1,2400.0,1,1,2025-05-10,Laptop Lenovo,2400.0,3,Ana Torres,ana.torres@email.com,987654321,2400.0
+2,1,2,1,750.0,1,1,2025-05-10,"Monitor LG 24""",750.0,30,Ana Torres,ana.torres@email.com,987654321,750.0
+3,2,4,1,80.0,2,2,2025-05-11,Mouse Inalámbrico,80.0,70,Luis Gómez,luis.gomez@email.com,956123789,80.0
+4,3,1,1,2400.0,1,1,2025-05-21,Laptop Lenovo,2400.0,3,Ana Torres,ana.torres@email.com,987654321,2400.0
+5,4,1,1,2400.0,1,1,2025-05-21,Laptop Lenovo,2400.0,3,Ana Torres,ana.torres@email.com,987654321,2400.0
+6,5,1,1,2400.0,1,1,2025-05-21,Laptop Lenovo,2400.0,3,Ana Torres,ana.torres@email.com,987654321,2400.0
+7,6,1,1,2400.0,1,1,2025-05-21,Laptop Lenovo,2400.0,3,Ana Torres,ana.torres@email.com,987654321,2400.0
+8,7,1,1,2400.0,1,1,2025-05-21,Laptop Lenovo,2400.0,3,Ana Torres,ana.torres@email.com,987654321,2400.0
+9,8,1,1,2400.0,1,1,2025-05-21,Laptop Lenovo,2400.0,3,Ana Torres,ana.torres@email.com,987654321,2400.0
+10,9,1,1,2400.0,1,1,2025-05-21,Laptop Lenovo,2400.0,3,Ana Torres,ana.torres@email.com,987654321,2400.0
+11,10,1,1,2400.0,1,1,2025-05-21,Laptop Lenovo,2400.0,3,Ana Torres,ana.torres@email.com,987654321,2400.0
+12,11,1,1,2400.0,1,1,2025-05-21,Laptop Lenovo,2400.0,3,Ana Torres,ana.torres@email.com,987654321,2400.0
+13,12,1,1,2400.0,1,1,2025-05-21,Laptop Lenovo,2400.0,3,Ana Torres,ana.torres@email.com,987654321,2400.0
+14,13,1,1,2400.0,1,1,2025-05-21,Laptop Lenovo,2400.0,3,Ana Torres,ana.torres@email.com,987654321,2400.0
+15,14,1,1,2400.0,1,1,2025-05-21,Laptop Lenovo,2400.0,3,Ana Torres,ana.torres@email.com,987654321,2400.0
