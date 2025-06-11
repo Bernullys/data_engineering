@@ -60,6 +60,8 @@ pandas funciona mejor y de forma oficialmente soportada con conexiones hechas us
 
 ---------------------------------------------------------------------
 Vamos a continuar con la extracción de datos desde MySQL utilizando Pandas y la conexión SQLAlchemy que ya configuramos. Ver archivo conecction_2.py
+Despues continuamos con un proceso simple de ETL en simple_etl.py
+
 
 
 

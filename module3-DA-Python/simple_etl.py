@@ -68,3 +68,16 @@ plt.ylabel('Total de Ventas ($)')
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.savefig("Graphic_1.png")
+
+# Sells by category:
+
+sells_by_category = complet_venta.groupby("nombre_x")["total"].sum().reset_index()
+
+plt.figure(figsize=(8, 5))
+sns.barplot(data=sells_by_category, x="nombre_x", y="total", palette="viridis")
+plt.title('Ventas Totales por Producto')
+plt.xlabel('Producto')
+plt.ylabel('Total de Ventas ($)')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig("Graphic_2.png")
