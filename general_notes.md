@@ -1,4 +1,8 @@
-Chequiar version de mysql:
+Instalar mysql:
+    sudo apt install mysql-server
+    sudo mysql_secure_installation
+
+Chequear version de mysql:
     mysql --version
 Cambiar contraseña de mysql:
     sudo service mysql stop
