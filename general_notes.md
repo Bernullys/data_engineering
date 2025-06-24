@@ -8,6 +8,7 @@ Cambiar contraseña de mysql:
     sudo service mysql stop
     sudo mysqld --skip-grant-tables --user=mysql &
     Abre otra terminal (o una nueva pestaña en la misma terminal de WSL).
+        sudo service mysql start
         sudo mysql -u root
         FLUSH PRIVILEGES;
         ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'NuevaContraseña';
