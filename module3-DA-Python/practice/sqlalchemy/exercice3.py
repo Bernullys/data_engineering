@@ -74,7 +74,7 @@ restricts the number of results returned.
 
 # --------------- Task ---------------------------------#
 # Query and print all Book records.
-# Find all books where the author's name starts with "M".
+# Find all books where the author's name starts with "B".
 # Count how many books are in the database.
 # Retrieve the first two books using limit().
 
@@ -94,3 +94,14 @@ with SessionLocal() as session:
 for book in books:
     print(book.title)
 
+with SessionLocal() as session:
+    authors_m = session.query(Book.author).filter(Book.author.like("b%")).all()
+    for author_m in authors_m:
+        print(author_m)
+
+session = SessionLocal()
+users_count = session.query(User).count()
+print(f"Users: {users_count}")
+
+first_two_books = session.query(Book.title).limit(2).all()
+print(f"First two books: {first_two_books}")
